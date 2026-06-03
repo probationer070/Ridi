@@ -1,0 +1,29 @@
+numpy>=2.1.0
+torch>=2.6.0+cu124         # PEP 621 표준상 index-url 명시 불가, 사용자 별도 설치 필요 (pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124)
+torchvision>=0.21.0+cu124  # PEP 621 표준상 index-url 명시 불가, 사용자 별도 설치 필요
+torchaudio>=2.6.0+cu124    # PEP 621 표준상 index-url 명시 불가, 사용자 별도 설치 필요
+llama-cpp-python>=0.3.9     
+pydantic>=2.11.7             
+sentence-transformers>=4.1.0
+faiss-cpu>=1.11.0            
+redis>=6.2.0                
+sounddevice>=0.5.2          
+noisereduce>=3.0.3          
+faster-whisper>=1.1.1       
+librosa>=0.11.0              
+pytorch-lightning    
+einops>=0.8.1               
+pandas>=2.3.0               
+LangSegment                # pip install 후 따로 파일 덮어쓰기, 버전 명시 권장
+cn2an>=0.5.23                
+pypinyin>=0.54.0             
+jieba_fast>=0.53           
+openai>=1.88.0               
+ffmpeg-python>=0.2.0        
+wordsegment>=1.3.1          
+jamo>=0.4.1                 
+ko_pron>=1.3              
+g2pk2>=0.0.3                
+g2p_en>=2.1.0
+pyvts
+discord.py>=2.10.2
